@@ -33,28 +33,23 @@ Tableau Dashboard: Developed an engaging and interactive dashboard with advanced
 
 
 # Methods
-- Data Collection: Web scraping, API access, database queries.
-- Data Preprocessing: Data cleaning, handling missing values, feature engineering.
-- ETL Work: MongoDB data extraction, data transformation using Pandas.
-- EDA: Visualization with Matplotlib, Seaborn, and Plotly.
-- Streamlit UI: Streamlit library for building interactive web applications.
+Data Collection: Employed techniques such as web scraping, API access, and database queries.
+Data Preprocessing: Involved cleaning data, handling missing values, and feature engineering.
+ETL Work: Extracted data from MongoDB and transformed it using Pandas.
+Exploratory Data Analysis (EDA): Created visualizations with Matplotlib, Seaborn, and Plotly.
+Streamlit UI: Utilized the Streamlit library to develop interactive web applications.
 
 # Skills Covered
-- Data collection and integration.
-- Data cleaning and preprocessing.
-- ETL techniques for data transformation.
-- Exploratory Data Analysis (EDA).
-- Data visualization.
-- Web application development with Streamlit.
-- Tableau Public
-
-
+Collecting and integrating data.
+Cleaning and preprocessing data.
+Applying ETL techniques for data transformation.
+Conducting Exploratory Data Analysis (EDA).
+Creating data visualizations.
+Developing web applications using Streamlit.
+Utilizing Tableau Public for dashboards.
 
 # Results
-- The project provides a user-friendly interface for exploring Airbnb data.
-- Insights and trends in the Airbnb market are presented through interactive charts and visualizations.
-- Data is cleaned, organized, and ready for further analysis.
-
-# Connect Through LinkedIn For Queries
-
+Developed a user-friendly interface for exploring Airbnb data.
+Presented insights and trends in the Airbnb market through interactive charts and visualizations.
+Cleaned, organized, and prepared data for further analysis.
 
