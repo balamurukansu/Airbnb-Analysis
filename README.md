@@ -15,7 +15,7 @@ Tableau Dashboard: Developed an engaging and interactive dashboard with advanced
 
 1. Clone the repository:
    
-         https://github.com/praveendecode/Airbnb_Analysis
+         
 
 3. Install required packages:
    
