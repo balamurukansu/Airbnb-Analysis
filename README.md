@@ -13,8 +13,7 @@ Tableau Dashboard: Developed an engaging and interactive dashboard with advanced
 
 # Getting Started
 
-1. Clone the repository:
-   
+1. Import the sample data available in MOngoDB 
          
 
 3. Install required packages:
