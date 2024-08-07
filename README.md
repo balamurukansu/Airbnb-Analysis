@@ -1,6 +1,5 @@
 # Airbnb-Analysis
 
-# Airbnb Data Analysis and Visualization
 # Overview
 The Airbnb Data Analysis and Visualization project is an extensive data exploration and presentation initiative. It encompasses data collection, preprocessing, ETL processes, and the development of an interactive Streamlit user interface. The project aims to provide insights and enhance the accessibility and understanding of Airbnb data.
 
