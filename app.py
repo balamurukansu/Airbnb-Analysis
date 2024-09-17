@@ -13,8 +13,14 @@ import io
 import pybase64 
 pd.set_option('display.max_columns', None)
 
+def get_img_as_base64(file):
+    with open(file, "rb") as f:
+        data = f.read()
+    return pybase64.b64encode(data).decode()
+icon = get_img_as_base64("image/airbnb_logo.png")
+
 # Setting up page configuration
-icon = Image.open("https://img.etimg.com/thumb/msid-55513295,width-300,height-225,imgsize-16809,resizemode-75/airbnb.jpg")
+# icon = Image.open("https://img.etimg.com/thumb/msid-55513295,width-300,height-225,imgsize-16809,resizemode-75/airbnb.jpg")
 st.set_page_config(page_title= "Airbnb Data Visualization | By Balamurukan Subramanian",
                    page_icon= icon,
                    layout= "wide",
