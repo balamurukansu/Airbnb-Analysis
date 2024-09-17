@@ -35,7 +35,8 @@ col = db.listingsAndReviews
 # Creating option menu in the side bar
 
 with st.sidebar:
-    st.image('https://github.com/balamurukansu/Airbnb-Analysis/blob/main/image/airbnb_banner.jpg')
+    side_banner = get_img_as_base64("image/airbnb_banner.jpg")
+    st.image(side_banner)
     st.markdown('Created by *Balamurukan Subramanian*')
     selected = st.radio("Menu", ["Home","Overview","Explore"],index=0)
     # st.markdown("[![Foo](images/in.png)](http://google.com.au/)")
