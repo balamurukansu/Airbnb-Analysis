@@ -10,14 +10,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 from streamlit_option_menu import option_menu
 import io
-import pybase64 
 pd.set_option('display.max_columns', None)
-
-def get_img_as_base64(file):
-    with open(file, "rb") as f:
-        data = f.read()
-    return pybase64.b64encode(data).decode()
-# icon = get_img_as_base64("airbnb_logo.png")
 
 # Setting up page configuration
 icon = Image.open("airbnb_logo.png")
