@@ -6,4 +6,3 @@ plotly-express
 pymongo
 pandas
 seaborn
-pybase64
