@@ -17,7 +17,7 @@ def get_img_as_base64(file):
     with open(file, "rb") as f:
         data = f.read()
     return pybase64.b64encode(data).decode()
-icon = get_img_as_base64("image/airbnb_logo.png")
+icon = get_img_as_base64("airbnb_logo.png")
 
 # Setting up page configuration
 # icon = Image.open("https://img.etimg.com/thumb/msid-55513295,width-300,height-225,imgsize-16809,resizemode-75/airbnb.jpg")
@@ -35,7 +35,7 @@ col = db.listingsAndReviews
 # Creating option menu in the side bar
 
 with st.sidebar:
-    side_banner = get_img_as_base64("/image/airbnb_banner.jpg")
+    side_banner = get_img_as_base64("airbnb_banner.jpg")
     st.image(side_banner)
     st.markdown('Created by *Balamurukan Subramanian*')
     selected = st.radio("Menu", ["Home","Overview","Explore"],index=0)
