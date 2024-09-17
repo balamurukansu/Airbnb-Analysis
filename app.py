@@ -13,7 +13,7 @@ import io
 pd.set_option('display.max_columns', None)
 
 # Setting up page configuration
-icon = Image.open("image/airbnb_logo.png")
+icon = Image.open("image\airbnb_logo.png")
 st.set_page_config(page_title= "Airbnb Data Visualization | By Balamurukan Subramanian",
                    page_icon= icon,
                    layout= "wide",
