@@ -53,7 +53,7 @@ df = pd.read_csv('airbnb.csv')
 if selected == "Home":
     
     # Title Image
-    st.image("https://github.com/balamurukansu/Airbnb-Analysis/blob/main/image/airbnb.gif")
+    st.image("airbnb.gif")
     st.markdown(" :blue[Overview] : To analyze Airbnb data with MongoDB Atlas, start by cleaning and preparing the data. Then, develop interactive visualizations and dynamic plots to uncover insights into pricing trends, availability patterns, and location-specific variations.")
     col3,col4=st.columns(2)
     col3.markdown(" :blue[Domain] : Travel Industry, Property Management and Tourism")
