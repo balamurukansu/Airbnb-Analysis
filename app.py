@@ -22,7 +22,7 @@ def get_img_as_base64(file):
 # Setting up page configuration
 icon = Image.open("airbnb_logo.png")
 st.set_page_config(page_title= "Airbnb Data Visualization | By Balamurukan Subramanian",
-                   # page_icon= icon,
+                   page_icon= icon,
                    layout= "wide",
                    initial_sidebar_state= "expanded"
                   )
