@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 from streamlit_option_menu import option_menu
 import io
+from streamlit_extras.mention import mention
 pd.set_option('display.max_columns', None)
 
 # Setting up page configuration
@@ -32,7 +33,8 @@ with st.sidebar:
     st.image("airbnb_banner.jpg")
     st.markdown('Created by *Balamurukan Subramanian*')
     # selected = st.radio("Menu", ["Home","Overview","Explore"],index=0)
-    selected = option_menu("Menu", ["Home","Overview","Explore"],icons=['house', 'gear','gear'], menu_icon="cast", default_index=0)    
+    selected = option_menu("Menu", ["Home","Overview","Explore"],icons=['house', 'gear','gear'], menu_icon="cast", default_index=0)  
+    mention(label="LinkedIN", icon="linkedin", url="https://www.linkedin.com/in/balamurukansu/")
     # st.markdown("[![Foo](images/in.png)](http://google.com.au/)")
     # st.markdown("[LinkedIn] (https://www.linkedin.com/in/balamurukansu/)")
     # st.markdown("[GitHub] (%s), % https://github.com/balamurukansu/Airbnb-Analysis)")
